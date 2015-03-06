@@ -20,7 +20,7 @@ ma_debug_loop=2
 # --- FORCINGS --------------------------------------------------------
 #
 bg_ctrl_force_GOLDSTEInTS=.true.
-bg_par_forcing_name="pyyyyz_Fsal"
+bg_par_forcing_name="pyyyyz.Fsal"
 bg_par_force_point_i=22
 bg_par_force_point_j=33
 bg_par_force_point_k=16
