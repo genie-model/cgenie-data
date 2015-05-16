@@ -6,7 +6,7 @@
 # NOTE: modern S0 is 1368 W m-2
 ma_genie_solar_constant=1368.0
 # set climate feedback
-ea_36=y
+ea_atchem_radfor=y
 #
 # --- BIOLOGICAL NEW PRODUCTION --------------------------------
 #
@@ -71,16 +71,16 @@ bg_ctrl_force_windspeed=.false.
 bg_par_gastransfer_a=0.715813093980993
 # ORBITS!!!
 # Call orbit_radfor
-ea_38="y"
+ea_orbit_radfor="y"
 # Specify the type of orbital forcing default (0), time-varying (1),
 alternative config (2)
-ea_39=1
+ea_t_orbit=1
 # Number of data points in orbits file
-ea_40=1001
+ea_norbit=1001
 # Interval between data points in goldstein time steps
-ea_41=48000
+ea_orbitsteps=48000
 # filename for orbital parameters (must be in genie-embm/data/input)
-ea_42="orbits_La2004_1Myr.dat"
+ea_filenameorbit="orbits_La2004_1Myr.dat"
 #
 # --- END ------------------------------------------------------
 #

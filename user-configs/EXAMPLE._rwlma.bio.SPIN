@@ -6,7 +6,7 @@
 # NOTE: modern S0 is 1368 W m-2
 ma_genie_solar_constant=1368.0
 # set climate feedback
-ea_36=y
+ea_atchem_radfor=y
 #
 # --- BIOLOGICAL NEW PRODUCTION --------------------------------
 #

@@ -3,7 +3,7 @@
 # --- CLIMATE --------------------------------------------------
 #
 # set climate feedback
-ea_36=y
+ea_atchem_radfor=y
 #
 # --- BIOLOGICAL NEW PRODUCTION --------------------------------
 #
@@ -89,9 +89,9 @@ bg_par_gastransfer_a=0.4675
 # INIT ALK
 bg_ocn_init_12=2.000-03
 # Topography for climate components
-ea_topo='_067f1'
-go_topo='_067f1'
-gs_topo='_067f1'
+ea_world='_067f1'
+go_world='_067f1'
+gs_world='_067f1'
 #
 # --- END ------------------------------------------------------
 #
